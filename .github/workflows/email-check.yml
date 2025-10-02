@@ -1,0 +1,16 @@
+name: Email Check Action
+
+on:
+  push:
+    branches:
+      - main   # adjust if your default branch is not "main"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 23f3001016@ds.study.iitm.ac.in
+        run: echo "Hello, world from GitHub Actions!"
